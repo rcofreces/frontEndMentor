@@ -4,6 +4,13 @@
 - Family: [Lexend Deca](https://fonts.google.com/specimen/Lexend+Deca)
 - Weights: 400 */
 
+/* ## Layout
+
+The designs were created to the following widths:
+
+- Mobile: 375px
+- Desktop: 1440px */
+
 :root {
     --very-dark-blue: hsl(233, 47%, 7%);
     --dark-desaturated-blue: hsl(244, 38%, 16%);
@@ -17,10 +24,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-}
-
-img {
-    max-width: 100%;
 }
 
 ul {
@@ -49,6 +52,7 @@ p {
 .container .picture {
     background: url("./images/image-header-mobile.jpg") no-repeat center/cover;
     height: 400px;
+    width: auto;
     border-radius: 10px 10px 0 0;
 }
 
